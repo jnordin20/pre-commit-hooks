@@ -1,0 +1,6 @@
+-   id: check-commit-msg
+    name: check that commit message is correct
+    description: prevents with wrong formatting being committed.
+    entry: check-commit-msg
+    language: python
+    stages: [commit]

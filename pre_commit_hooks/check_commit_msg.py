@@ -71,6 +71,9 @@ def check_commit_msg():
     if not has_warning:
         message = "The commit message has the required pattern."
         print_with_color(message, Level.OK)
+        return True
+
+    return False
 
 
 def main():

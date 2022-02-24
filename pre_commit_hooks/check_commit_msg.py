@@ -29,7 +29,7 @@ def print_with_color(message: str, level: Level):
     )
 
 
-def check_commit_msg_pattern():
+def check_commit_msg():
     # The argument passed to the "commit-msg" hook is the path to a
     # temporary file that contains the commit message written by the
     # developer.
@@ -74,7 +74,7 @@ def check_commit_msg_pattern():
 
 
 def main():
-    check_commit_msg_pattern()
+    check_commit_msg()
 
 
 if __name__ == '__main__':

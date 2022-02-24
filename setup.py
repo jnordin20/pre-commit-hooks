@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'check_commit_msg_pattern = pre_commit_hooks.check_commit_msg_pattern:main',
+            'check-commit-msg = pre_commit_hooks.check_commit_msg:main',
         ],
     },
 )

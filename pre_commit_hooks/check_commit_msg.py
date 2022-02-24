@@ -73,5 +73,9 @@ def check_commit_msg_pattern():
         print_with_color(message, Level.OK)
 
 
-if __name__ == "__main__":
+def main():
     check_commit_msg_pattern()
+
+
+if __name__ == '__main__':
+    main()
